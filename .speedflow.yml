@@ -1,0 +1,11 @@
+scm:
+  adapter: git
+  workflow: none
+vcs:
+  adapter: github
+  repository: git@github.com:JulienBreux/speedflow-sandbox.git
+pm:
+  adapter: jira
+  host: iadvize.atlassian.net
+  port: 443
+  project: SAN
