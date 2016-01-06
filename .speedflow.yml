@@ -4,7 +4,9 @@ scm:
 vcs:
   adapter: github
   remote: origin
+  create_issue: true
 pm:
   adapter: jira
   host: iadvize.atlassian.net
   project: SAN
+  create_issue: true
