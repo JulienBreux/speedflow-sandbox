@@ -1,5 +1,6 @@
 scm:
   adapter: git
+  workflow: gitflow
 vcs:
   adapter: github
   remote: origin
