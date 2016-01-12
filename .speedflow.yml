@@ -1,12 +1,13 @@
-scm:
-  adapter: git
-  workflow: gitflow
-vcs:
-  adapter: github
-  remote: origin
-  create_issue: true
-pm:
-  adapter: jira
+PM:
   host: iadvize.atlassian.net
   project: SAN
   create_issue: true
+  adapter: jira
+SCM:
+  workflow: none
+  adapter: git
+  remote: origin
+VCS:
+  create_issue: false
+  pr_create: true
+  adapter: github
