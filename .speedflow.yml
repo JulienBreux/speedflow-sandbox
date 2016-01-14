@@ -9,5 +9,5 @@ SCM:
   remote: origin
 VCS:
   create_issue: false
-  pr_create: true
+  create_pull_request: true
   adapter: github
